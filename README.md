@@ -53,7 +53,9 @@ Used to evolve optimized routes through:
 
 Fitness Function:
 
-  - Fitness= 1/(Total Distance)
+  - **Fitness = 1 / (Total Distance)**
+
+
 
 2️⃣ K-Means Clustering
 
@@ -79,16 +81,20 @@ Ensures feasibility by enforcing:
 
 The project uses TSPLIB benchmark datasets:
 
-Dataset	    Locations	          Purpose
-att48	         48	         Visualization & validation
-a280	         280	       Scalability analysis
+
+| Dataset | Locations | Purpose |
+|--------|-----------|---------|
+| att48  | 48        | Visualization & validation |
+| a280   | 280       | Scalability analysis |
+
 
 📌 Each dataset is processed individually, following standard research practice.
 
 📊 Experimental Results
-Dataset	    Initial Route      	Optimized Route	      Improvement
-att48	      Random route	      GA optimized	          ~34%
-a280	      Random route	      GA optimized	          ~13%
+| Dataset | Initial Route | Optimized Route | Improvement |
+|--------|---------------|-----------------|-------------|
+| att48  | Random route  | GA optimized    | ~34%        |
+| a280   | Random route  | GA optimized    | ~13%        |
 
 🔹 Improvement % decreases for larger datasets due to exponential growth in search space, which is expected for NP-Hard problems.
 
@@ -140,7 +146,7 @@ Select the desired dataset (att48 or a280)
 
 Run cells sequentially
 
-📁 Project Structure
+```text
 ├── datasets/
 │   ├── att48.tsp
 │   ├── a280.tsp
@@ -154,6 +160,7 @@ Run cells sequentially
 │   ├── metrics/
 ├── README.md
 └── main.ipynb
+```
 
 🧪 Evaluation Metrics
 
@@ -167,11 +174,15 @@ Run cells sequentially
 
 📌 Key Highlights
 
-✔ Solves an NP-Hard real-world problem
-✔ Uses hybrid AI optimization
-✔ Quantitative, research-grade evaluation
-✔ Scalable across dataset sizes
-✔ Suitable for major final-year project
+  ✔ Solves an NP-Hard real-world problem
+  
+  ✔ Uses hybrid AI optimization
+  
+  ✔ Quantitative, research-grade evaluation
+  
+  ✔ Scalable across dataset sizes
+  
+  ✔ Suitable for major final-year project
 
 ## ⚠️ Limitations
 
