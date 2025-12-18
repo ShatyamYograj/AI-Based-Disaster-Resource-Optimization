@@ -6,13 +6,13 @@ Efficient disaster management requires rapid and optimal allocation of limited r
 
 The system integrates:
 
-Genetic Algorithm (GA) for route optimization
-
-K-Means Clustering for spatial zoning
-
-Constraint Satisfaction Problem (CSP) for feasibility enforcement
-
-Benchmark experiments are performed using TSPLIB datasets, demonstrating significant distance reduction across different problem scales.
+  - Genetic Algorithm (GA) for route optimization
+  
+  - K-Means Clustering for spatial zoning
+  
+  - Constraint Satisfaction Problem (CSP) for feasibility enforcement
+  
+  - Benchmark experiments are performed using TSPLIB datasets, demonstrating significant distance reduction across different problem scales.
 
 ## 📌 Project Motivation
 
@@ -20,15 +20,15 @@ In disaster scenarios, delays in resource delivery can lead to loss of life and 
 
 🎯 Objectives
 
-Optimize disaster resource delivery routes
-
-Minimize total travel distance and response time
-
-Ensure realistic, constraint-compliant solutions
-
-Evaluate scalability on small and large datasets
-
-Provide quantitative performance analysis
+  - Optimize disaster resource delivery routes
+  
+  - Minimize total travel distance and response time
+  
+  - Ensure realistic, constraint-compliant solutions
+  
+  - Evaluate scalability on small and large datasets
+  
+  - Provide quantitative performance analysis
 
 🧠 Problem Description
 
@@ -53,7 +53,7 @@ Used to evolve optimized routes through:
 
 Fitness Function:
 
-  Fitness= 1/(Total Distance)
+  - Fitness= 1/(Total Distance)
 
 2️⃣ K-Means Clustering
 
@@ -96,15 +96,15 @@ a280	      Random route	      GA optimized	          ~13%
 
 Small datasets (att48)
 
-  Before vs After route visualization
+  - Before vs After route visualization
     
-  Clear demonstration of optimization
+  - Clear demonstration of optimization
 
 Large datasets (a280)
 
-  Numerical analysis (distance & improvement %)
+  - Numerical analysis (distance & improvement %)
   
-  Route visualization avoided due to clutter (research standard practice)
+  - Route visualization avoided due to clutter (research standard practice)
 
 🛠️ Tech Stack
 
@@ -114,15 +114,15 @@ Environment: Google Colab / Jupyter Notebook
 
 Libraries:
 
-NumPy
-
-Matplotlib
-
-Scikit-learn
-
-Random
-
-Math
+  - NumPy
+  
+  - Matplotlib
+  
+  - Scikit-learn
+  
+  - Random
+  
+  - Math
 
 🚀 How to Run the Project
 1️⃣ Clone the repository
@@ -157,13 +157,13 @@ Run cells sequentially
 
 🧪 Evaluation Metrics
 
-Total travel distance
-
-Distance improvement percentage
-
-Fitness convergence across generations
-
-Runtime scalability
+  - Total travel distance
+  
+  - Distance improvement percentage
+  
+  - Fitness convergence across generations
+  
+  - Runtime scalability
 
 📌 Key Highlights
 
@@ -182,15 +182,15 @@ Runtime scalability
 
 🔮 Future Work
 
-Multi-vehicle routing
-
-GIS-based real-world distance mapping
-
-Real-time traffic integration
-
-Dynamic disaster scenario adaptation
-
-Parallel GA implementation
+  - Multi-vehicle routing
+  
+  - GIS-based real-world distance mapping
+  
+  - Real-time traffic integration
+  
+  - Dynamic disaster scenario adaptation
+  
+  - Parallel GA implementation
 
 👨‍💻 Author
 
